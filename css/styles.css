@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  width: 200px;
+  border-style: dotted none none none;
+  border-width: 15px;
+  border-color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+padding: 70px 0 20px 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-img {
+  border-radius: 200px;
+  width: 305px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.html5-logo {
+  width: 18%;
+  float: left;
+  margin-right: 30px
+}
+
+.css-logo {
+  width: 18%;
+  float: right;
+  margin-left: 30px
+}
+
+.btn {
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-top: 100px;
+  padding: 13px 32px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+a {
+  font-size: 1rem;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #e4f9f5;
+}
+
+.footer-link{
+  margin: 0 20px;
+}
+
+.copyright{
+  color: #e4f9f5;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
